@@ -4,9 +4,21 @@ The N.E.R.D. Spark Data Tracker is our Data Science team's solution to recording
 
 Using a JavaFX gui, and a point-and-click interface, users can use the app to record the positional data of shots taken in real-time, and look for patterns where shots land either consistently high, low, or scored. This data is then provided to the programming, strategy, and drive teams to assist them in decisions on how to improve.
 
-Read our [Writeup Paper](./9312_NERD_Spark_Data_Tracker.pdf) for an in-depth review of our process and results!
+Read our short [Writeup Paper](./9312_NERD_Spark_Data_Tracker.pdf) for an in-depth review of our process, features, and results!
+
+## Features
+
+See our paper for details!
+
+NERD Spark Shot Tracker:
+![NERD Spark Shot Tracker](images/NS_Shot_Tracker.png)
+
+NERD Spark Shot Analyzer:
+![NERD Spark Shot Analyzer](images/NS_Shot_Analyzer.png)
 
 ## Usage
+
+Download the most recent compiled Jar from the [releases page](https://github.com/nerdspark/NERDSpark-Data-Tool/releases)!
 
 To run the compiled jar file in **Windows**:
 1. Install a [Java 17+ JDK](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html) onto the machine.  
@@ -33,7 +45,7 @@ To run the compiled jar file in **Mac** or **Linux**:
 The N.E.R.D. Spark Data Tracker is written with Java using the JavaFX library for UI controls. To run this from the source code, you must: 
 1. Have Java 17 or above installed.
 2. Have JavaFX 17.0.10 jdk or above installed.
-3. Include the following in the VM arguments (adjust to your own JavaFX sdk location): 
+3. Include the following in the VM arguments in your IDE (adjust to your own JavaFX SDK location): 
 ```
     --module-path <location of javafx is installed>/javafx-sdk-<Version>/lib
     --add-modules=javafx.controls,javafx.fxml
